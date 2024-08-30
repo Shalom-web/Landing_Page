@@ -234,8 +234,11 @@ footer .container{
   background-color: #47363924;
 
   i{
-    color: #b42a07;
+    color: rgb(0, 98, 255);
     font-size: 2em;
+  }
+  i:hover{
+    color: var(--white);
   }
 }
 .services .container{
@@ -243,6 +246,7 @@ footer .container{
   gap: 2em;
   flex-wrap: wrap;
   justify-content: space-between;
+  
 }
 .service{
   padding: 2em;
@@ -257,6 +261,13 @@ footer .container{
   color: var(--white);
   background-color: rgb(4, 105, 177);
   transition: 0.5s ease;
+}
+.service:first-child{
+  color: var(--white);
+  background-color: rgb(4, 105, 177);
+  i{
+    color: var(--white);
+  }
 }
 
 @media (max-width: 800px) {
